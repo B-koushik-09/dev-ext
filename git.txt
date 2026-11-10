@@ -1,0 +1,37 @@
+git config --global user.email "yourmail@gmail.com"
+git config --global user.name "name"
+git remote add origin YOUR_GITHUB_URL
+
+git init
+
+git branch -M main
+
+git status
+
+git add .
+
+git commit -m "first commit"
+
+git remote add origin URL
+
+git push -u origin main
+
+git pull origin main
+
+git switch main
+
+git switch -c branch-1
+
+git branch
+
+git add .
+
+git commit -m "Added file"
+
+git push -u origin branch-1
+
+git switch main
+
+git merge branch-1
+
+git push origin main
